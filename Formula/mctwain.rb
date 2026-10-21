@@ -1,8 +1,8 @@
 class Mctwain < Formula
   desc "Local helper that lets web pages scan documents from network scanners"
   homepage "https://github.com/mormitech/mctwain"
-  url "https://github.com/mormitech/mctwain/archive/refs/tags/v0.1.2.tar.gz"
-  sha256 "4b58a9819c1ff0ac76ecb93a33bcec08bcceac531121aeff5fa055dfe52cd2b3"
+  url "https://github.com/mormitech/mctwain/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "a7bef1a4a6b9a499efe9a3339f357cda03bff185ead888f4c71abf7fcf2ac018"
   license "MIT"
 
   depends_on "node"
