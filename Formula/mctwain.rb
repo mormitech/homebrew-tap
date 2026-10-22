@@ -1,29 +1,29 @@
 class Mctwain < Formula
   desc "Local helper that lets web pages scan documents from network scanners"
   homepage "https://github.com/mormitech/mctwain"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mormitech/mctwain/releases/download/v0.3.0/mctwain-bin-0.3.0-macos-arm64.tar.gz"
-      sha256 "b498f8d94c7dbbed0373880dab8ceabce54c6d72603c97154f325d853570f2dc"
+      url "https://github.com/mormitech/mctwain/releases/download/v0.4.0/mctwain-bin-0.4.0-macos-arm64.tar.gz"
+      sha256 "a98dba34ffcccef7c46bb6c45c65188b6af2ba9eaa8fb2a3195bd3da8fe47302"
     end
     on_intel do
-      url "https://github.com/mormitech/mctwain/archive/refs/tags/v0.3.0.tar.gz"
-      sha256 "4e2a0e8d643a8afe959c2512226d3936c2b3596d458ca2f523ac502d64e66a95"
+      url "https://github.com/mormitech/mctwain/archive/refs/tags/v0.4.0.tar.gz"
+      sha256 "6a9f1af18eceb41e40112d95eda20991b9f64c2d3285020f0e0894bc03131fab"
       depends_on "node"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mormitech/mctwain/releases/download/v0.3.0/mctwain-bin-0.3.0-linux-arm64.tar.gz"
-      sha256 "3266c9dc56917fed7b0a857e7586f6b6e1538f39b626ac7506a405a8fc322d55"
+      url "https://github.com/mormitech/mctwain/releases/download/v0.4.0/mctwain-bin-0.4.0-linux-arm64.tar.gz"
+      sha256 "a6a228b650c1965bc61c479fa9ce53b678e30c3edc2cd8f3360716bf9520291a"
     end
     on_intel do
-      url "https://github.com/mormitech/mctwain/releases/download/v0.3.0/mctwain-bin-0.3.0-linux-x64.tar.gz"
-      sha256 "0ebc37b5950f4689750b602c391855cfd119e2cb21866aa4fac645b108b9bade"
+      url "https://github.com/mormitech/mctwain/releases/download/v0.4.0/mctwain-bin-0.4.0-linux-x64.tar.gz"
+      sha256 "6ffbcaeba434aed1d7dff2c89caa01e2a06d5f2dedda2e6f18b7dbe37bbc9c9f"
     end
   end
 
