@@ -1,5 +1,20 @@
 # homebrew-tap
 
+Homebrew tap for the [mormitech](https://github.com/mormitech) tools.
+
+## mcdiskfree
+
+[mcdiskfree](https://github.com/mormitech/mcdiskfree) is a free disk space analyzer (macOS, Apple silicon).
+
+```
+brew install --cask mormitech/tap/mcdiskfree
+```
+
+The cask is generated from a published release: in the mcdiskfree repository, `node scripts/make-cask.mjs > ../homebrew-tap/Casks/mcdiskfree.rb`.
+The app is not notarized yet, so the cask clears the download quarantine flag after installing.
+
+## mctwain
+
 Homebrew tap for [mctwain](https://github.com/mormitech/mctwain), a local helper that lets web pages scan from
 network scanners.
 
