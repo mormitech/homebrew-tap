@@ -3,7 +3,7 @@ cask "mcdiskfree" do
   sha256 "17b7210d8e1d586ad88ac4454569c7c0ade1bee4b5a9112478d1e0802a0cc82a"
 
   url "https://github.com/mormitech/mcdiskfree/releases/download/v#{version}/mcdiskfree-#{version}-macos-arm64.zip"
-  name "mcdiskfree"
+  name "mcDiskFree"
   desc "Free disk space analyzer with an interactive sunburst chart"
   homepage "https://github.com/mormitech/mcdiskfree"
 

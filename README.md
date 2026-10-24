@@ -2,9 +2,9 @@
 
 Homebrew tap for the [mormitech](https://github.com/mormitech) tools.
 
-## mcdiskfree
+## mcDiskFree
 
-[mcdiskfree](https://github.com/mormitech/mcdiskfree) is a free disk space analyzer.
+[mcDiskFree](https://github.com/mormitech/mcdiskfree) is a free disk space analyzer.
 
 ```
 brew install --cask mormitech/tap/mcdiskfree   # macOS, Apple silicon
