@@ -21,11 +21,11 @@ The app is not notarized yet, so the cask clears the download quarantine flag af
 [mcPrint](https://github.com/mormitech/mcprint) scans pages of documents from network scanners (eSCL / AirScan).
 
 ```
-brew install --cask mormitech/tap/mcprint   # macOS, Apple silicon
-brew install mormitech/tap/mcprint          # Linux x64 (needs GTK 3 and WebKitGTK 4.1 from the distribution)
+brew install mormitech/tap/mcprint
 ```
 
-Both are generated from a published release: in the mcprint repository, `node scripts/make-cask.mjs > ../homebrew-tap/Casks/mcprint.rb` and `node scripts/make-formula.mjs > ../homebrew-tap/Formula/mcprint.rb`.
+It is one cask for macOS (Apple silicon, the app) and Linux (x64, the binary; needs GTK 3 and WebKitGTK 4.1 from the distribution, and a current Homebrew that installs casks on Linux).
+The cask is generated from a published release: in the mcprint repository, `node scripts/make-cask.mjs > ../homebrew-tap/Casks/mcprint.rb`.
 The app is not notarized yet, so the cask clears the download quarantine flag after installing.
 
 ## mctwain
