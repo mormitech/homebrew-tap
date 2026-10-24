@@ -4,13 +4,14 @@ Homebrew tap for the [mormitech](https://github.com/mormitech) tools.
 
 ## mcdiskfree
 
-[mcdiskfree](https://github.com/mormitech/mcdiskfree) is a free disk space analyzer (macOS, Apple silicon).
+[mcdiskfree](https://github.com/mormitech/mcdiskfree) is a free disk space analyzer.
 
 ```
-brew install --cask mormitech/tap/mcdiskfree
+brew install --cask mormitech/tap/mcdiskfree   # macOS, Apple silicon
+brew install mormitech/tap/mcdiskfree          # Linux x64 (needs GTK 3 and WebKitGTK 4.1 from the distribution)
 ```
 
-The cask is generated from a published release: in the mcdiskfree repository, `node scripts/make-cask.mjs > ../homebrew-tap/Casks/mcdiskfree.rb`.
+Both are generated from a published release: in the mcdiskfree repository, `node scripts/make-cask.mjs > ../homebrew-tap/Casks/mcdiskfree.rb` and `node scripts/make-formula.mjs > ../homebrew-tap/Formula/mcdiskfree.rb`.
 The app is not notarized yet, so the cask clears the download quarantine flag after installing.
 
 ## mctwain
