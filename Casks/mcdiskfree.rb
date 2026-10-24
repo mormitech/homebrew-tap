@@ -1,5 +1,5 @@
 cask "mcdiskfree" do
-  version "0.6.0"
+  version "0.6.1"
 
   name "mcDiskFree"
   desc "Disk space and disk usage analyzer with an interactive sunburst chart"
@@ -11,7 +11,7 @@ cask "mcdiskfree" do
   end
 
   on_macos do
-    sha256 "891e7c732d9fc11bba6bd4112367a0176d0c6b2cd6e58d1c7f928820b7bff1bb"
+    sha256 "48996d267a8ff6dfb1ff61dadc0748d24555dcd978da721b3c89938d55c53dc9"
 
     url "https://github.com/mormitech/mcdiskfree/releases/download/v#{version}/mcdiskfree-#{version}-macos-arm64.zip"
 
@@ -34,7 +34,7 @@ cask "mcdiskfree" do
   end
 
   on_linux do
-    sha256 "366ff0a52b61f2a6df2cb260fc5073ce420bc0938ffdc9be5bfb6bcb153043bd"
+    sha256 "bb258f9f97d145d3387b2b392a81296aaef69def7f2dc97c21418d93c9bcb5fa"
 
     url "https://github.com/mormitech/mcdiskfree/releases/download/v#{version}/mcdiskfree-#{version}-linux-x64.tar.gz"
 
