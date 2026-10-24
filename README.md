@@ -16,6 +16,18 @@ After `brew tap mormitech/tap`, `brew search disk` and `brew search --desc "disk
 Both are generated from a published release: in the mcdiskfree repository, `node scripts/make-cask.mjs > ../homebrew-tap/Casks/mcdiskfree.rb` and `node scripts/make-formula.mjs > ../homebrew-tap/Formula/mcdiskfree.rb`.
 The app is not notarized yet, so the cask clears the download quarantine flag after installing.
 
+## mcPrint
+
+[mcPrint](https://github.com/mormitech/mcprint) scans pages of documents from network scanners (eSCL / AirScan).
+
+```
+brew install --cask mormitech/tap/mcprint   # macOS, Apple silicon
+brew install mormitech/tap/mcprint          # Linux x64 (needs GTK 3 and WebKitGTK 4.1 from the distribution)
+```
+
+Both are generated from a published release: in the mcprint repository, `node scripts/make-cask.mjs > ../homebrew-tap/Casks/mcprint.rb` and `node scripts/make-formula.mjs > ../homebrew-tap/Formula/mcprint.rb`.
+The app is not notarized yet, so the cask clears the download quarantine flag after installing.
+
 ## mctwain
 
 Homebrew tap for [mctwain](https://github.com/mormitech/mctwain), a local helper that lets web pages scan from
