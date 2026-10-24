@@ -1,5 +1,5 @@
 cask "mcprint" do
-  version "0.6.1"
+  version "0.7.1"
 
   name "mcPrint"
   desc "Scan pages of documents from network scanners (eSCL / AirScan)"
@@ -11,7 +11,7 @@ cask "mcprint" do
   end
 
   on_macos do
-    sha256 "76eb43f1cbc65ba151cd0006f16b5ede1bb5ca427713b41107341ec62961b518"
+    sha256 "b4bf2b6980ae83bd4cbcde656c5f97508ba6d565e8db60bb3f4d9dc8b8f6189a"
 
     url "https://github.com/mormitech/mcprint/releases/download/v#{version}/mcprint-#{version}-macos-arm64.zip"
 
@@ -37,7 +37,7 @@ cask "mcprint" do
   end
 
   on_linux do
-    sha256 "ee4b76f5a84ade1f00e52de0b7e40114443675c9ce6064b4a23bb33cfb4f56cc"
+    sha256 "1ea98b150e9c6077311f6ab532f5da6911956dae9a1aa443116a0c7ce1d1dc20"
 
     url "https://github.com/mormitech/mcprint/releases/download/v#{version}/mcprint-#{version}-linux-x64.tar.gz"
 
