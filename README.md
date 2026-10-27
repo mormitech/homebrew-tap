@@ -28,6 +28,18 @@ It is one cask for macOS (Apple silicon, the app) and Linux (x64, the binary; ne
 The cask is generated from a published release: in the mcprint repository, `node scripts/make-cask.mjs > ../homebrew-tap/Casks/mcprint.rb`.
 The app is not notarized yet, so the cask clears the download quarantine flag after installing.
 
+## mormiView
+
+[mormiView](https://github.com/mormitech/mormiview) is a fast picture viewer with a small Paint-like editor, animated GIF frame editing and a built-in chat for Claude.
+
+```
+brew install mormitech/tap/mormiview
+```
+
+It is one cask for macOS (Apple silicon, the app) and Linux (x64, the binary; needs GTK 3 and WebKitGTK 4.1 from the distribution, and a current Homebrew that installs casks on Linux).
+The cask is generated from a published release: in the mormiview repository, `node scripts/make-cask.mjs > ../homebrew-tap/Casks/mormiview.rb`.
+The app is not notarized yet, so the cask clears the download quarantine flag after installing.
+
 ## mctwain
 
 Homebrew tap for [mctwain](https://github.com/mormitech/mctwain), a local helper that lets web pages scan from
