@@ -1,5 +1,5 @@
 cask "mormiview" do
-  version "0.51.8"
+  version "0.51.11"
 
   name "mormiView"
   desc "Picture viewer and small editor with GIF frames and a chat for Claude"
@@ -11,7 +11,7 @@ cask "mormiview" do
   end
 
   on_macos do
-    sha256 "5bb23c538aa2cbc9dc5f6489df38a2ad984ffa696445ab5ad6ab4975cdd9a1dc"
+    sha256 "eb9e7b204b95a18b4016083b3b6aa5d81a74a85c77786398abf7c2f9db26647b"
 
     url "https://github.com/mormitech/mormiview/releases/download/v#{version}/mormiview-#{version}-macos-arm64.zip"
 
@@ -19,8 +19,8 @@ cask "mormiview" do
     depends_on macos: :monterey
 
     app "mormiview.app"
-    # also a command, so mormiview (and mormiview picture.jpg) works in a terminal
-    binary "#{appdir}/mormiview.app/Contents/MacOS/mormiview"
+    # also a command, so mormiview picture.jpg works in a terminal (a launcher in the app, since 0.51.11; it starts the app the way Finder does)
+    binary "#{appdir}/mormiview.app/Contents/Resources/bin/mormiview"
 
     # The app is not notarized yet, so Gatekeeper would block its first launch; clear the quarantine flag it got
     # when it was downloaded. (A third-party tap may do this; the main homebrew-cask repository does not allow it.)
@@ -34,7 +34,7 @@ cask "mormiview" do
   end
 
   on_linux do
-    sha256 "12bbadb2e9251d2add69ece8edd25eb8d7925c387b3cc6f78e87fd78bd2f675d"
+    sha256 "a879b458c556638be334568bfeb6d0a030b268fc6338274cd995b9edb162fb18"
 
     url "https://github.com/mormitech/mormiview/releases/download/v#{version}/mormiview-#{version}-linux-x64.tar.gz"
 
