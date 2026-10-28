@@ -4,16 +4,16 @@ Homebrew tap for the [mormitech](https://github.com/mormitech) tools.
 
 ## mcDiskFree
 
-[mcDiskFree](https://github.com/mormitech/mcdiskfree) is a free disk space analyzer.
+[mormiDiskFree](https://github.com/mormitech/mormidiskfree) is a free disk space analyzer.
 
 ```
-brew install mormitech/tap/mcdiskfree
+brew install mormitech/tap/mormidiskfree
 ```
 
 It is one cask for macOS (Apple silicon, the app) and Linux (x64, the binary; needs GTK 3 and WebKitGTK 4.1 from the distribution, and a current Homebrew that installs casks on Linux).
 After `brew tap mormitech/tap`, `brew search disk` and `brew search --desc "disk usage"` find it.
 
-The cask is generated from a published release: in the mcdiskfree repository, `node scripts/make-cask.mjs > ../homebrew-tap/Casks/mcdiskfree.rb`.
+The cask is generated from a published release: in the mormidiskfree repository, `node scripts/make-cask.mjs > ../homebrew-tap/Casks/mormidiskfree.rb`.
 The app is not notarized yet, so the cask clears the download quarantine flag after installing.
 
 ## mcPrint
