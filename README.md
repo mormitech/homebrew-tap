@@ -2,7 +2,7 @@
 
 Homebrew tap for the [mormitech](https://github.com/mormitech) tools.
 
-## mcDiskFree
+## mormiDiskFree
 
 [mormiDiskFree](https://github.com/mormitech/mormidiskfree) is a free disk space analyzer.
 

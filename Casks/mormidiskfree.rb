@@ -1,5 +1,5 @@
 cask "mormidiskfree" do
-  version "0.7.0"
+  version "0.7.1"
 
   name "mormiDiskFree"
   desc "Disk space and disk usage analyzer with an interactive sunburst chart"
@@ -11,7 +11,7 @@ cask "mormidiskfree" do
   end
 
   on_macos do
-    sha256 "07cc0978014d3ab693d7a1df3d1af0a1fc4624291364856a20219609428d9ea5"
+    sha256 "0c6f6ed6a90213c1084764e5f906732315085fcb1b7c8533e473be580c03d2dd"
 
     url "https://github.com/mormitech/mormidiskfree/releases/download/v#{version}/mormidiskfree-#{version}-macos-arm64.zip"
 
@@ -34,7 +34,7 @@ cask "mormidiskfree" do
   end
 
   on_linux do
-    sha256 "ac0078bd7405a38363c08b89ea7c7c8ed12716d9312d85ccb83777cfe3ac1f80"
+    sha256 "1976fb8d544c09fc0731763ae678f879da903b67182488566bed16e970260c15"
 
     url "https://github.com/mormitech/mormidiskfree/releases/download/v#{version}/mormidiskfree-#{version}-linux-x64.tar.gz"
 
