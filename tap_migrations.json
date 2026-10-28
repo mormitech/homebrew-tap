@@ -1,3 +1,4 @@
 {
-  "mcdiskfree": "mormitech/tap/mormidiskfree"
+  "mcdiskfree": "mormitech/tap/mormidiskfree",
+  "mcprint": "mormitech/tap/mormiprint"
 }

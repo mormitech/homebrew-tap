@@ -16,16 +16,16 @@ After `brew tap mormitech/tap`, `brew search disk` and `brew search --desc "disk
 The cask is generated from a published release: in the mormidiskfree repository, `node scripts/make-cask.mjs > ../homebrew-tap/Casks/mormidiskfree.rb`.
 The app is not notarized yet, so the cask clears the download quarantine flag after installing.
 
-## mcPrint
+## mormiPrint
 
-[mcPrint](https://github.com/mormitech/mcprint) scans pages of documents from network scanners (eSCL / AirScan).
+[mormiPrint](https://github.com/mormitech/mormiprint) scans pages of documents from network scanners (eSCL / AirScan).
 
 ```
-brew install mormitech/tap/mcprint
+brew install mormitech/tap/mormiprint
 ```
 
 It is one cask for macOS (Apple silicon, the app) and Linux (x64, the binary; needs GTK 3 and WebKitGTK 4.1 from the distribution, and a current Homebrew that installs casks on Linux).
-The cask is generated from a published release: in the mcprint repository, `node scripts/make-cask.mjs > ../homebrew-tap/Casks/mcprint.rb`.
+The cask is generated from a published release: in the mormiprint repository, `node scripts/make-cask.mjs > ../homebrew-tap/Casks/mormiprint.rb`.
 The app is not notarized yet, so the cask clears the download quarantine flag after installing.
 
 ## mormiView
