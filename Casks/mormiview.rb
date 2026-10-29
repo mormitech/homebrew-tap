@@ -1,5 +1,5 @@
 cask "mormiview" do
-  version "0.51.12"
+  version "0.54.0"
 
   name "mormiView"
   desc "Picture viewer and small editor with GIF frames and a chat for Claude"
@@ -11,7 +11,7 @@ cask "mormiview" do
   end
 
   on_macos do
-    sha256 "0448e97be26a898a5f465ab77b27c6e24beee44e13d588eb4a05880154f03562"
+    sha256 "c7517880abb8ac2a2c96f3114eca9e541b35497e6420d76c29c943db8e7de40f"
 
     url "https://github.com/mormitech/mormiview/releases/download/v#{version}/mormiview-#{version}-macos-arm64.zip"
 
@@ -34,7 +34,7 @@ cask "mormiview" do
   end
 
   on_linux do
-    sha256 "87b03f84dca7acad21901acf9d419b2f3436f6dd0bcd6de819c2e38475652eec"
+    sha256 "ae2a0637372b7cbb58e8c51c1b92bfd210a93800de9db5ed4cbf08c6f7208cbf"
 
     url "https://github.com/mormitech/mormiview/releases/download/v#{version}/mormiview-#{version}-linux-x64.tar.gz"
 
