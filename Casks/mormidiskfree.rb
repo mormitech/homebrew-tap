@@ -1,5 +1,5 @@
 cask "mormidiskfree" do
-  version "0.8.1"
+  version "0.8.2"
 
   name "mormiDiskFree"
   desc "Disk space and disk usage analyzer with an interactive sunburst chart"
@@ -11,7 +11,7 @@ cask "mormidiskfree" do
   end
 
   on_macos do
-    sha256 "d661936be5311b51aa0a348f234d2eec2c36678fea1cb7ed8898d2e4d24f3e80"
+    sha256 "de17f9d61987a288007dddf433d7afcf44c93677a9b8c5ccfa60f148f44dee85"
 
     url "https://github.com/mormitech/mormidiskfree/releases/download/v#{version}/mormidiskfree-#{version}-macos-arm64.zip"
 
@@ -34,7 +34,7 @@ cask "mormidiskfree" do
   end
 
   on_linux do
-    sha256 "b6d8d19887f62234c5587daff436a660eba7d2884173f287e82925bf3f2f04f7"
+    sha256 "82f7f0c84319b84c4fd71feafbf9ec0ba614daee6b1b96f9ac8c297f5f70e0c3"
 
     url "https://github.com/mormitech/mormidiskfree/releases/download/v#{version}/mormidiskfree-#{version}-linux-x64.tar.gz"
 
@@ -47,6 +47,8 @@ cask "mormidiskfree" do
     caveats <<~EOS
       mormidiskfree needs GTK 3 and WebKitGTK 4.1 from your system, for example on Debian and Ubuntu:
         sudo apt install libgtk-3-0 libwebkit2gtk-4.1-0
+      On Debian and Ubuntu the .deb from the GitHub release installs them for you:
+        https://github.com/mormitech/mormidiskfree/releases/latest
     EOS
   end
 end
